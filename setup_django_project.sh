@@ -30,6 +30,9 @@ pip install --upgrade pip
 # Install Django
 pip install django
 
+# Add dependencies to requirements.txt
+pip freeze > requirements.txt
+
 # Create Django project
 django-admin startproject $project_name ./
 
