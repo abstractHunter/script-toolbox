@@ -36,6 +36,9 @@ pip freeze > requirements.txt
 # Create Django project
 django-admin startproject $project_name ./
 
+# Create a README.md file
+echo -e "# $project_name\n\n## Setup\n\n1. Create a virtual environment\n2. Activate the virtual environment\n3. Install dependencies\n4. Run the server\n\n" > README.md
+
 # Initialize Git repository 
 git init
 
